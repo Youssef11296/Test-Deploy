@@ -1,0 +1,20 @@
+/* Vars */
+$light-color: #fff;
+$dark-color:#222;
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    padding: 30px;
+    text-align: center;
+    color: $light-color;
+    background-color: $dark-color;
+}
